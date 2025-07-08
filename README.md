@@ -67,17 +67,38 @@ Definir los objetivos del proyecto desde la perspectiva de negocio para entender
 - Responder a los requerimientos de la consultoría internacional.
 
 ---
+## 📄 Descripción del Dataset
+
+Puedes ver la descripción detallada del conjunto de datos en este [PDF](./data/dataset_description.pdf).
+## 📌 I. Conclusiones
+
+- ✅ El proyecto permitió comprender cómo los datos generados por **YouTube en Canadá** pueden ser analizados para identificar **patrones de popularidad, interacción y comportamiento del público** en videos en tendencia.
+
+- 🎭 Se evidenció que categorías como **“Entertainment”**, **“Music”** y **“Comedy”** concentran gran parte del contenido viral, y que variables como **vistas, comentarios y canal de publicación** influyen directamente en la cantidad de *likes* que recibe un video.
+
+- 🌳 Se aplicó un **modelo de árbol de regresión** para predecir el número de *me gusta*, utilizando como variables predictoras: **vistas escaladas, comentarios escalados y codificación del canal**.  
+  El modelo mostró buen desempeño, con una precisión (**R²**) cercana a 1 y errores aceptables, considerando los valores extremos de *likes* que pueden superar las 100,000 interacciones.
+
+- 🔍 A través del análisis, se confirmó una **relación positiva** entre vistas, comentarios y *likes*, indicando que cuanto mayor es la interacción del público, mayor es la probabilidad de éxito del video.  
+  Esta información puede ser valiosa para **marcas, creadores de contenido y agencias** que deseen optimizar su estrategia en plataformas digitales.
+
+- 🤝 Como equipo, se reforzó la importancia de **iterar entre fases del proceso CRISP-DM**.  
+  Las decisiones de limpiar, transformar y escalar los datos fueron claves para mejorar el rendimiento del modelo.  
+  Se concluye que un enfoque **colaborativo y metodológico en Data Science** puede generar conocimiento útil para la toma de decisiones basadas en datos reales.
+
+
 
 ## 4. 🗂️ Estructura del Repositorio
-
 ```plaintext
 📁 data/
-   ├── initial_dataset.csv      # Datos sin procesar
-   └── cleaned_dataset.csv      # Datos finales limpios/preparados
+   ├── data_inicial.csv               # Datos sin procesar
+   └── final_limpio_dataset.csv       # Datos finales limpios/preparados
+   └── json_inicial.json              #Json de las categorias
 
 📁 code/
-   ├── eda_notebook.ipynb       # Análisis exploratorio y visualizaciones
-   ├── preprocessing.ipynb      # Limpieza y transformación de datos
-   └── modeling.ipynb           # Modelado y evaluación de regresión
+   └── upc_2025_01_258_4_tf.ipynb       # codigo
+
 
 📄 README.md                    # Este archivo
+
+
