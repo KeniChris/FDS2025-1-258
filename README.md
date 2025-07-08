@@ -69,7 +69,7 @@ Definir los objetivos del proyecto desde la perspectiva de negocio para entender
 ---
 ## 📄 Descripción del Dataset
 
-Puedes ver la descripción detallada del conjunto de datos en este [PDF](.upc-2025-01-258-4-tf.pdf).
+Puedes ver la descripción detallada del conjunto de datos en este [PDF](upc-2025-01-258-4-tf.pdf).
 ## 📌 I. Conclusiones
 
 - ✅ El proyecto permitió comprender cómo los datos generados por **YouTube en Canadá** pueden ser analizados para identificar **patrones de popularidad, interacción y comportamiento del público** en videos en tendencia.
